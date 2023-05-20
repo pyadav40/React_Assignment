@@ -7,7 +7,7 @@ const LoginPage = () => {
   let [loginfo,setLogInfo]=useState(initState)
 
  let [formState, setFormState]=useState(false)
- 
+
 const paperStyle={color:'white',height:'65vh',width:350, padding:10, margin:'50px auto', background: 'linear-gradient(23deg, rgba(2,0,36,1) 0%, rgba(147,224,36,0.6615021008403361) 13%, rgba(0,212,255,1) 100%)' };
 const logField ={ padding:10, align:'center'}
 
@@ -36,7 +36,7 @@ let onSubmit=(e)=>
         <Typography variant='h6'>Sign-In</Typography>
         </Grid>
         <Grid align='center' style={logField}>
-          <TextField required name='name' onChange={handleChange} color="secondary" fullWidth label='User Name' required variant='outlined' placeholder='User Name'/>
+          <TextField name='name' onChange={handleChange} color="secondary" fullWidth label='User Name' required variant='outlined' placeholder='User Name'/>
         </Grid>
         <Grid align='center'style={logField}> 
           <TextField name='mobile' onChange={handleChange} color="secondary"  fullWidth type='number' label='Mobile Number' required variant='outlined' placeholder='Mobile No.'/>
