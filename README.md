@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+ Objective: The objective of this React Internship Assignment is to create a new React application
+that implements the following functionality:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Task 1: Application Configuration
+● Create a new React application using Typescript and Vite.
+● If you are unfamiliar with Vite, please refer to the following link for more information:
+https://vitejs.dev/guide/
+● Configure the application with MUI, ensuring that all components within the application (e.g.
+buttons, text fields, dialogs) use MUI components. If you are unfamiliar with MUI, please refer
+to the following link for more information:
+https://mui.com/material-ui/getting-started/overview/
+Task 2: First Page of the Application
+● Create a form to collect the following information from the user:
+○ Name
+○ Phone number
+○ Email
+● Upon completion, save the user details in localstorage and route the user to the second page.
+● If the user attempts to access the second page without providing the necessary information,
+redirect them back to the first page with a message indicating that they must enter their
+details before accessing the page.
+Task 3: Second Page of the Application[Component 1]
+● Fetch a list of JSON details from an API. You may use any API that returns a list of data. One
+example is https://jsonplaceholder.typicode.com/posts
+● Convert the retrieved JSON data into a model/interface in Typescript. If you are unfamiliar
+with models or interfaces in Typescript, please refer to the following link for more information:
+https://www.educative.io/blog/typescript-interfaces
+● Display the data in a table using the following package: https://mui.com/x/react-data-grid/
+Task 4: Second Page of the Application[Component 2]
+● Create another component below the table from the given
+json(https://docs.google.com/document/d/1uQCFny5aXfMD9v2TPy3rbE8EHw-xZVdZfj4g-2Yv6I
+U/edit?usp=sharing)
+● You can hardcode the given json in your application
+● The component will be the list of department and each department has sub departments
+● Sub departments can be expanded and collapsed by the use
 
-In the project directory, you can run:
+------------------------------------------------------------------------------------------------------------------------
 
-### `npm start`
+Implementaition- 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To implement this project we have used React and Javascript with UI as Material UI. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Step-1 Create a form to collect the following information from the user: Name, Phone Number, Email
+Step-2 Upon completion, save the user details in localstorage and route the user to the second page.
+Step-3 Fetch a list of JSON details from an API. You may use any API that returns a list of data. One
+example is https://jsonplaceholder.typicode.com/posts
+Steo-4: Created Second Page of the Application.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-------Live Site on Netlify--------
 
-### `npm run build`
+https://delicate-otter-fe5d2d.netlify.app/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
